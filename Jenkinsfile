@@ -4,8 +4,10 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+
                 sh "env"
-                echo 'Building..'
+                echo 'Building1..'
+
             }
         }
         stage('Test') {
